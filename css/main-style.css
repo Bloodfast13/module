@@ -32,6 +32,16 @@ body {
 	padding-right: 88px;
 }
 
+.header-img {
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding-left: 88px;
+	padding-right: 88px;
+}
+
 .logo {
 	display: flex;
 	-webkit-align-items: center;
@@ -256,6 +266,14 @@ body {
 	color: #8b909d;
 }
 
+.article-1 {
+	-webkit-transition: transform 0.5s linear;
+		   -moz-transition: transform 0.5s linear;
+		    -ms-transition: transform 0.5s linear;
+		     -o-transition: transform 0.5s linear;
+		        transition: transform 0.5s linear;
+}
+
 .article-1:before {
 	opacity: 0.5;
 	content: '';
@@ -265,12 +283,7 @@ body {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.8);
-	-webkit-transition: opacity, transform 0.5s linear;
-		   -moz-transition: opacity, transform 0.5s linear;
-		    -ms-transition: opacity, transform 0.5s linear;
-		     -o-transition: opacity, transform 0.5s linear;
-		        transition: opacity, transform 0.5s linear;	
+	background-color: rgba(0, 0, 0, 0.8);	
 }
 
 .article-1:hover:before {
@@ -286,6 +299,7 @@ body {
 	    -ms-transform: scale(1.2);
 	     -o-transform: scale(1.2);
 	        transform: scale(1.2);
+	z-index: 2;
 }
 
 main a {
@@ -311,12 +325,20 @@ main a {
 	        transition: transform 1s linear;
 }
 
-.url:hover a {
-	-webkit-transform: scale(1.2);
-	   -moz-transform: scale(1.2);
-	    -ms-transform: scale(1.2);
-	     -o-transform: scale(1.2);
-	        transform: scale(1.2);
+.url-a {
+	-webkit-transition: transform 1s linear;
+	   -moz-transition: transform 1s linear;
+	    -ms-transition: transform 1s linear;
+	     -o-transition: transform 1s linear;
+	        transition: transform 1s linear;
+}
+
+.url-a:hover {
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
 	color: black;
 }
 
@@ -338,10 +360,6 @@ main a {
 	width: 100%;
 	min-height: 700px;
 	position: relative;
-}
-
-.white {
-	width: 40%;
 }
 
 .dishes {
@@ -426,6 +444,10 @@ main a {
 
 .article-2:hover:before {
 	opacity: 0.5;
+}
+
+.article-2 {
+	text-align: center;
 }
 
 .article-2 h2 {
@@ -526,11 +548,11 @@ main a {
 }
 
 .hover:hover {
-	-webkit-transform: scale(1.5);
-	   -moz-transform: scale(1.5);
-	    -ms-transform: scale(1.5);
-	     -o-transform: scale(1.5);
-	        transform: scale(1.5);
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
 	border: 3px solid black;
 	-webkit-border-radius: 50%;
 	        border-radius: 50%;

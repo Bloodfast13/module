@@ -4,16 +4,48 @@
 		display: block;
 	}
 
+	.header-wrap {
+		display: flex;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.header-wrap.new {
+		display: flex;
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		padding-left: 44px;
+		padding-right: 44px;
+	}
+
+	.next-nav {
+		-webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	}
+
 	.arrow p {
 		font-size: 10px;
 	}
 
+	.img a {
+		width: 10%;
+		height: auto;
+	}
+
 	.btn {
 		font-size: 10px;
+		margin-bottom: 10px;
 	}
 
 	.header {
 		padding-left: 0;
+	}
+
+	.header-img {
+		padding: 0;
 	}
 
 	.arrow {
