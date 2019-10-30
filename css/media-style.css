@@ -30,9 +30,12 @@
 		font-size: 10px;
 	}
 
-	.img a {
-		width: 10%;
-		height: auto;
+	.img img {
+		height: 60px;
+	}
+
+	.down img {
+		height: 50px;
 	}
 
 	.btn {
@@ -70,6 +73,14 @@
 
 	.nav {
 		display: none;
+	}
+
+	.white {
+		margin: 20px;
+	}
+
+	.dishes button {
+		line-height: 20px;
 	}
 
 	#nav-opener {
