@@ -4,6 +4,14 @@
 		display: block;
 	}
 
+	.arrow p {
+		font-size: 10px;
+	}
+
+	.btn {
+		font-size: 10px;
+	}
+
 	.header {
 		padding-left: 0;
 	}
@@ -34,10 +42,8 @@
 
 	#nav-opener {
 		display: block;
-		width: 30px;
-		height: 30px;
 		border: none;
-		background: white;
+		background: none;
 		padding-right: 20px;
 	}
 }
