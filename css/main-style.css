@@ -68,6 +68,10 @@ body {
 	color: white;
 }
 
+#nav-opener {
+	display: none;
+}
+
 .nav ul {
 	list-style: none;
 }

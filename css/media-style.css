@@ -1,7 +1,11 @@
-@media (max-width: 767px) {
+@media (max-width: 868px) {
 
 	.main-wrap {
 		display: block;
+	}
+
+	.header {
+		padding-left: 0;
 	}
 
 	.arrow {
@@ -10,5 +14,30 @@
 
 	.round {
 		left: 45%;
+	}
+
+	.dishes h1 {
+		font-size: 30px;
+	}
+
+	.dishes p {
+	font-size: 18px;
+	}
+
+	.dishes button {
+	font-size: 8px;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	#nav-opener {
+		display: block;
+		width: 30px;
+		height: 30px;
+		border: none;
+		background: white;
+		padding-right: 20px;
 	}
 }
